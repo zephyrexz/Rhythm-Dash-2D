@@ -1,0 +1,6 @@
+{
+  "name": "Rhythm Dash 2D",
+  "description": "A casual 2D rhythm platformer game inspired by Geometry Dash, built with HTML5 Canvas and Vanilla JavaScript.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
