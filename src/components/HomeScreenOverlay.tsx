@@ -38,20 +38,11 @@ export const HomeScreenOverlay: React.FC<HomeScreenOverlayProps> = ({
   const isDailyClaimed = lastDailyClaim === today;
 
   const handleDownloadDesktopApp = () => {
-    // Generate actual PE double-byte headers for genuine EXE file behaviour in the browser
-    const encoder = new TextEncoder();
-    const mockExeData = encoder.encode(
-      "MZ\x90\x00\x03\x00\x00\x00\x04\x00\x00\x00\xff\xff\x00\x00\xb8\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x00\x0e\x1f\xba\x0e\x00\xb4\t\xcd!\xb8\x01L\xcd!This file represents the official desktop executable build for Neon Dash 2D Platformer Series v2.0."
-    );
-    const blob = new Blob([mockExeData], { type: 'application/octet-stream' });
-    const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
-    link.href = url;
-    link.download = 'Neon_Dash_2D.exe';
+    link.href = 'https://github.com/zephyrexz/Rhythm-Dash-2D/releases/download/v1.0.0/Neon.Dash.2D.Setup.1.0.0.exe';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    URL.revokeObjectURL(url);
   };
 
   return (
