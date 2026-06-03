@@ -1,7 +1,12 @@
 # ⚡ Neon Dash 2D (Rhythm Dash 2D)
 ![Game Banner](https://raw.githubusercontent.com/zephyrexz/Rhythm-Dash-2D/main/assets/banner-preview.png)
+
 **Neon Dash 2D** adalah game arcade ritme 2D yang cepat, imersif, dan penuh dengan visual estetika neon yang modern. Awalnya dikembangkan sebagai aplikasi web berbasis React, proyek ini kini hadir dengan versi desktop native Windows berkat integrasi Electron.
-[🌐 Mainkan Versi Web](https://rhythm-dash-2d.vercel.app) | [📥 Download Installer Windows](https://github.com/zephyrexz/Rhythm-Dash-2D/releases)
+
+[🌐 Mainkan Versi Web](https://rhythm-dash-2d.vercel.app)
+
+[📥 Download Installer Windows](https://github.com/zephyrexz/Rhythm-Dash-2D/releases)
+
 ---
 ## 🚀 Fitur Utama
 *   **Gameplay Ritme yang Intens:** Nikmati sensasi melompati rintangan yang sinkron dengan ketukan musik.
@@ -17,6 +22,7 @@
 | ![Home Screen](https://raw.githubusercontent.com/zephyrexz/Rhythm-Dash-2D/main/assets/home-screen.png) | ![Gameplay](https://raw.githubusercontent.com/zephyrexz/Rhythm-Dash-2D/main/assets/gameplay.png) |
 
 ---
+
 ## 🛠️ Teknologi yang Digunakan
 Game ini dibangun menggunakan kombinasi ekosistem web modern berkekuatan tinggi:
 *   **React 18 & TypeScript** - Untuk manajemen state komponen UI game yang cepat dan aman dari bug.
@@ -24,7 +30,9 @@ Game ini dibangun menggunakan kombinasi ekosistem web modern berkekuatan tinggi:
 *   **Tailwind CSS 4** - Untuk urusan *styling* antarmuka neon yang simpel dan estetik.
 *   **Electron 30** - Untuk membungkus aplikasi web Vercel menjadi perangkat lunak desktop executable Windows.
 *   **Electron Builder & NSIS** - Sebagai mesin pencetak sistem installer & uninstaller resmi.
+
 ---
+
 ## 💻 Panduan Pengembangan Lokal
 Jika kamu ingin menjalankan atau mengembangkan game ini di komputer lokalmu, ikuti langkah-langkah berikut:
 ### Prasyarat
