@@ -1,5 +1,5 @@
 # ⚡ Neon Dash 2D (Rhythm Dash 2D)
-![Game Banner](https://raw.githubusercontent.com/zephyrexz/Rhythm-Dash-2D/main/assets/banner-preview.png)
+![Game Banner](https://drive.proton.me/urls/4SEZJC3RWW#Q528NuatjNit)
 
 **Neon Dash 2D** adalah game arcade ritme 2D yang cepat, imersif, dan penuh dengan visual estetika neon yang modern. Awalnya dikembangkan sebagai aplikasi web berbasis React, proyek ini kini hadir dengan versi desktop native Windows berkat integrasi Electron.
 
